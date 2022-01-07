@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "portfolio"
+version = "0.1.0"
+description = ""
+authors = ["Buzmarev <grigory.buzmarev@tages.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.1"
+wemake-python-styleguide = "^0.16.0"
+django-bootstrap-v5 = "^1.0.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
